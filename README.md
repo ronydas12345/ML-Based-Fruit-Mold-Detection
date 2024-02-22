@@ -1,4 +1,5 @@
 # ML Based Fruit Mold Detection
+Fruit is an essential and very complete food, indispensable in a balanced diet. But a very prevalent and harmful problem in fruits is the growth of fungi and mold, in their growth, harvesting, transport and distribution.
 
 ## Problem Statement
 ### Global Hunger
@@ -7,23 +8,25 @@ If food loss and waste were a country, it would be the third-highest greenhouse-
 
 ### Ailments from eating bacteria infested fruits.
 Fruit is an essential and very complete food, indispensable in a balanced diet. But a very prevalent and harmful problem in fruits is the growth of fungi and mold, in their growth, harvesting, transport and distribution. These fungi or mold, not only accelerate spoilage, but can also generate mycotoxins in fruits, causing allergies, asthma and infections in humans.
-In a study published in the International Journal of Food Microbiology (2005), 251 samples of fresh fruit, including several varieties of grapes, strawberries, blueberries, raspberries, blackberries and citrus fruits, were analysed. These were disinfected, incubated at room temperature for up to 14 days without supplementary media, and then examined for mold growth. The results were alarming: fungal contamination levels ranged from 9 to 80%. For example, 35% of the grape samples tested were contaminated and supported fungal growth; while 83% of the citrus samples showed fungal growth at levels ranging from 25% to 100% of the fruit tested.
+In a study published in the International Journal of Food Microbiology (2005), 251 samples of fresh fruit, including several varieties of grapes, strawberries, blueberries, raspberries, blackberries and citrus fruits, were analysed. These were disinfected, incubated at room temperature for up to 14 days without supplementary media, and then examined for mold growth. 
+> The results were alarming: fungal contamination levels ranged from 9 to 80%. For example, 35% of the grape samples tested were contaminated and supported fungal growth; while 83% of the citrus samples showed fungal growth at levels ranging from 25% to 100% of the fruit tested.
+> 
 This pathogen growth affects directly the fruit’s shelf life, producing large losses and contributing to food waste that has reached exorbitant levels.
 
 ### Practical challenges in manual mold detection
 Also, Sorting fruits for mold manually can be a challenging task due to various practical problems -
-•	Subjectivity: Different individuals may have varying levels of sensitivity in detecting mold visually, leading to inconsistencies in the sorting process.
-•	Labor Intensive: Manual sorting is labour-intensive and time-consuming. It may require a significant workforce for large quantities of fruits, leading to increased operational costs.
-•	Human Error: Humans may overlook subtle signs of mold or may mistakenly identify non-moldy areas as contaminated, leading to inaccurate sorting.
-•	Speed and Efficiency: Manual sorting may not be as fast and efficient as automated methods. As a result, the process may not keep up with the pace of production, causing delays.
-•	Fatigue: Prolonged manual sorting can lead to worker fatigue, potentially impacting the accuracy of mold detection as attention levels decrease.
-•	Inconsistency: The sorting criteria may vary among individuals, leading to inconsistencies in the identification of mold. Standardization becomes challenging in a manual sorting setup.
-•	Limited Scale: Manual sorting may not be feasible for large-scale fruit production due to the limitations of human capacity and speed.
-•	Health and Safety Concerns: Handling moldy fruits manually can pose health risks to workers, especially if proper safety measures are not in place. Mold spores may cause respiratory issues.
-•	Training Requirements: Workers need proper training to identify different types and stages of mold accurately. This training adds to the overall cost and time invested in the sorting process.
-•	Quality Control Challenges: Maintaining consistent quality control is difficult in a manual sorting process, as it heavily relies on the capabilities and vigilance of individual workers.
-•	Seasonal Variations: The prevalence of mold may vary seasonally, making it challenging for manual sorters to adapt to changing conditions.
-•	Waste Management: Disposal of moldy fruits requires proper waste management procedures to prevent contamination and the spread of mold in the sorting facility.
+ - **Subjectivity:** Different individuals may have varying levels of sensitivity in detecting mold visually, leading to inconsistencies in the sorting process.
+ - **Labor Intensive:** Manual sorting is labour-intensive and time-consuming. It may require a significant workforce for large quantities of fruits, leading to increased operational costs.
+ - **Human Error:** Humans may overlook subtle signs of mold or may mistakenly identify non-moldy areas as contaminated, leading to inaccurate sorting.
+ - **Speed and Efficiency:** Manual sorting may not be as fast and efficient as automated methods. As a result, the process may not keep up with the pace of production, causing delays.
+ - **Fatigue:** Prolonged manual sorting can lead to worker fatigue, potentially impacting the accuracy of mold detection as attention levels decrease.
+ - **Inconsistency:** The sorting criteria may vary among individuals, leading to inconsistencies in the identification of mold. Standardization becomes challenging in a manual sorting setup.
+ - **Limited Scale:** Manual sorting may not be feasible for large-scale fruit production due to the limitations of human capacity and speed.
+ - **Health and Safety Concerns:** Handling moldy fruits manually can pose health risks to workers, especially if proper safety measures are not in place. Mold spores may cause respiratory issues.
+ - **Training Requirements:** Workers need proper training to identify different types and stages of mold accurately. This training adds to the overall cost and time invested in the sorting process.
+ - **Quality Control Challenges:** Maintaining consistent quality control is difficult in a manual sorting process, as it heavily relies on the capabilities and vigilance of individual workers.
+ - **Seasonal Variations:** The prevalence of mold may vary seasonally, making it challenging for manual sorters to adapt to changing conditions.
+ - **Waste Management:** Disposal of moldy fruits requires proper waste management procedures to prevent contamination and the spread of mold in the sorting facility.
 
 ## My solution & its benefits
 My project aims to address this issue by leveraging machine learning algorithms to accurately identify and classify moldy fruits based on visual cues.
